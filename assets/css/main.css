@@ -3203,6 +3203,10 @@ input, select, textarea {
 			}
 
 /* Wrapper */
+	.intro {
+
+			width: 65%;
+		}
 
 	.wrapper {
 		position: relative;
