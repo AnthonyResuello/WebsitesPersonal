@@ -10,7 +10,7 @@
 	</head>
 	<body class="is-preload">
 
-			<!-- Sidebar -->
+		<!-- Sidebar -->
 		<section id="sidebar">
 			<div class="inner">
 				<nav>
@@ -24,7 +24,6 @@
 			</div>
 		</section>
 
-
 		<!-- Wrapper -->
 		<div id="wrapper">
 
@@ -32,8 +31,11 @@
 			<section id="intro" class="wrapper style1 fullscreen fade-up">
 				<div class="inner">
 					<h1>Anthony Resuello</h1>
-					<p>Welcome to my portfolio website<br />
-						showcasing my work and projects.</p>
+					<p class="intro">Welcome to my personal website! I'm Anthony Resuello, an
+						aspiring
+						software developer with a passion for technology and a creative flair.
+						This site serves as a platform to showcase my work, projects, and journey
+						in the world of software development.</p>
 					<ul class="actions">
 						<li><a href="#about" class="button scrolly">Learn more</a></li>
 					</ul>
@@ -88,7 +90,7 @@
 				<!-- Two -->
 				<section id="two" class="wrapper style3 fade-up">
 					<div class="inner">
-						<h2>My Skills</h2>
+						<h2>About</h2>
 						<div class="features">
 							<section>
 								<span class="icon solid major fa-code"></span>
@@ -139,26 +141,30 @@
 						<p>Let's connect! Feel free to reach out for collaborations or inquiries.</p>
 						<div class="split style1">
 							<section>
-								<form method="post" action="#">
+								<form action="https://formsubmit.co/anthonyresuello187@gmail.com"
+									method="POST">
+
 									<div class="fields">
-										<div class="field half">
+										<div class="field half"> 	
 											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<input type="text" name="name" required id="name" />
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+											<input type="text" name="email" required id="email" />
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="5"></textarea>
+											<textarea name="message" required id="message" rows="5"></textarea>
 										</div>
 									</div>
 									<ul class="actions">
-										<li><a href="#" class="button submit">Send Message</a></li>
+										<li><input type="button" class="button submit" value="Send Email"
+												onclick="sendEmail();" /></li>
 									</ul>
 								</form>
 							</section>
+
 							<section>
 								<ul class="contact">
 									<li>
@@ -200,6 +206,7 @@
 			</footer>
 
 			<!-- Scripts -->
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -208,5 +215,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-		</body>
-	</html>
+		</html>
+
+	</body>
+</html>
